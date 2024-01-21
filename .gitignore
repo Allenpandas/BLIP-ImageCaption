@@ -1,0 +1,20 @@
+# os
+.DS_Store
+.idea/
+.ipynb_checkpoints/
+
+# images
+*.png
+*.jpg
+*.jpeg
+
+# model
+*.pth
+*.json
+
+# cache
+models/__pycache__/ 
+
+datasets/*
+# 强制提交
+!demo/*
